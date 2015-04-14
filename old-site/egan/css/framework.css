@@ -1,0 +1,51 @@
+/* line 2, sass/framework.scss */
+article.site_content {
+  width: 100%;
+  min-width: 1260px;
+  max-width: 1366px;
+  position: relative;
+  margin: auto;
+  font-family: "Arial", sans-serif;
+  font-weight: 300;
+  color: black;
+  font-weight: lighter;
+}
+/* line 12, sass/framework.scss */
+article.site_content img {
+  border: none;
+}
+
+/* line 14, sass/framework.scss */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 18, sass/framework.scss */
+.content_area {
+  width: 80%;
+  font-size: 13px;
+  position: relative;
+  margin: auto;
+}
+/* line 23, sass/framework.scss */
+.content_area p {
+  line-height: 20px;
+}
+
+/* line 27, sass/framework.scss */
+.content_text {
+  float: left;
+  width: 75%;
+  padding-right: 10px;
+  padding-top: 5px;
+}
+/* line 32, sass/framework.scss */
+.content_text h2 {
+  font-size: 31px;
+}
+/* line 33, sass/framework.scss */
+.content_text ul li {
+  display: block;
+  text-indent: -40px;
+}

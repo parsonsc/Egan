@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<style>
+		.case_container {
+			width: 960px;
+			margin: auto;
+			position: relative;
+		}
+		.content { 
+		    display:none;
+		    width: 100%;	   
+			height: 150px;
+		    clear: both;
+		}
+		.content img {
+		    width: 100px; 
+		    float: left;
+		    padding-right: 10px;
+		}
+		.but {
+		    float: left;
+		    width: 100px;
+		    margin: 20px;
+		    clear: top;
+		}
+	</style>
+</head>
+<body>
+	<section class="case_container">
+
+		<div id="case_01div" class="content">
+		    <img src="sdkasdk" alt="" width="100%">
+		    <h2>One</h2>
+		    <p>sdjkfhsdfjknsdfk</p>
+		   
+		</div>
+		<div id="case_02div" class="content">
+		    <img src="sdkasdk" alt="" width="100%">
+		    <h2>two</h2>
+		    <p>sdjkfhsdsfsdfffffffffffffffffffdfjknsdfk</p>
+		</div>
+
+		<div id="case_03div" class="content">
+		    <img src="sdkasdk" alt="" width="100%">
+		    <h2>three</h2>
+		    <p>sdjkfhdfsdfsfsdjknsdfk</p>
+		</div>
+		<div class="navigation">
+		    <div class="but" type="button" id="case_01"><img src="images/opl.jpg" alt="Latest News" width="100%"></div>
+		    <div class="but" type="button" id="case_02"><img src="images/opl.jpg" alt="Latest News" width="100%"></div>
+		    <div class="but" type="button" id="case_03"><img src="images/opl.jpg" alt="Latest News" width="100%"></div>    
+		</div>
+
+	</section>  
+
+	<script>	
+
+		$(function() {
+		  $(".but").on("click",function(e) {
+		    e.preventDefault();
+		    $(".content").hide();
+		    $("#"+this.id+"div").show();
+		    $(".navigation").slideDown(700);
+		  });
+		});
+
+	</script>
+</body>
+</html>

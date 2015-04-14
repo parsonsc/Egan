@@ -1,0 +1,11 @@
+{
+	"output_path": "../",
+	"options": {
+		"cache":         false,
+		"debug":         true,
+		"line-comments": false,
+		"line-numbers":  true,
+		"style":         "compressed
+"
+	}
+}

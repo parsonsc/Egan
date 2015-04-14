@@ -1,0 +1,94 @@
+/* line 1, sass/header.scss */
+.site_content header {
+  position: relative;
+  letter-spacing: 1px;
+}
+/* line 4, sass/header.scss */
+.site_content header h1 {
+  width: 12%;
+  margin: auto;
+}
+/* line 8, sass/header.scss */
+.site_content header .header_info {
+  height: 10px;
+}
+
+/* line 12, sass/header.scss */
+.header_text {
+  width: 960px;
+  margin: auto;
+}
+/* line 15, sass/header.scss */
+.header_text h1 {
+  width: 80%;
+}
+
+/* line 17, sass/header.scss */
+.header_contact {
+  float: left;
+  width: 20% a;
+  width-padding-top: 15px;
+  width-margin-left: 1%;
+  width-font-size: 14px;
+  width-color: #164a75;
+}
+
+/* line 27, sass/header.scss */
+.main_banner {
+  position: relative;
+  margin-bottom: -3px;
+}
+/* line 30, sass/header.scss */
+.main_banner .banner_text {
+  position: absolute;
+  color: #fff;
+  top: 5%;
+  left: 15%;
+  font-size: 17px;
+}
+
+/* line 39, sass/header.scss */
+.slider {
+  width: 200px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 42, sass/header.scss */
+.servicesslider a {
+  text-decoration: none;
+}
+
+/* line 43, sass/header.scss */
+.attachment-front-page-services {
+  width: 450px;
+  height: 270px;
+  background: #fff;
+  border: 10px solid #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  box-shadow: 5px 5px 7px #4f4f4f;
+}
+
+/* line 44, sass/header.scss */
+.slidertext {
+  font-family: Eurostyle;
+  color: #ffffff;
+  text-decoration: none;
+  float: left;
+  margin-right: 20px;
+  width: 400px;
+}
+
+/* line 45, sass/header.scss */
+.sliderhead {
+  font-size: 50px;
+}
+
+/* line 46, sass/header.scss */
+.sliderhead a {
+  color: #ffffff;
+  text-decoration: none;
+}

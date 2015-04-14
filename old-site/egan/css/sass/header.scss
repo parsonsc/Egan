@@ -1,0 +1,46 @@
+.site_content header {
+	position: relative;
+	letter-spacing: 1px;
+	h1 {
+		width: 12%;
+		margin: auto;
+	}
+	.header_info {
+		height: 10px;
+	}
+}
+.header_text {
+	width: 960px;
+	margin: auto;
+	h1 {width: 80%;}	
+}
+.header_contact {
+		float: left;
+		width: 20%
+	a {
+		padding-top: 15px;
+		margin-left: 1%;
+		font-size: 14px;
+		color: #164a75;
+	}
+} 	
+.main_banner {
+	position: relative;
+	margin-bottom: -3px;
+	.banner_text {
+		position: absolute;
+		color: #fff;
+		top: 5%;
+		left: 15%;
+		font-size: 17px;
+	}	
+}
+
+.slider {width:200px; height:400px; overflow:hidden; position:relative;}
+
+.servicesslider {}
+.servicesslider a {text-decoration:none;}
+.attachment-front-page-services {width:450px; height:270px; background:#fff; border:10px solid #fff; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; box-shadow: 5px 5px 7px #4f4f4f;}
+.slidertext {font-family: Eurostyle; color:#ffffff; text-decoration:none; float:left; margin-right:20px; width:400px;}
+.sliderhead {font-size:50px;}
+.sliderhead a {color:#ffffff; text-decoration:none;}

@@ -1,0 +1,279 @@
+
+
+
+
+.site_content a {
+	text-decoration: none;
+	-webkit-transition: all 0.2s ;
+       -moz-transition: all 0.2s ;
+        -ms-transition: all 0.2s ;
+         -o-transition: all 0.2s ;
+}
+h1 {font-size: 30px; letter-spacing: 1px; color: #404041; font-family: 'Roboto', sans-serif; font-weight: 300;}
+.site_content h2, h3, h4 {font-size: 25px; font-family: 'Roboto', sans-serif; font-weight: 300;}
+
+
+.blue_links {color: #164a75}
+.header_text {
+	height: auto;
+	margin-bottom: -20px;
+}
+
+.header_contact {
+	float: left;
+	width: 20%;
+	padding-top: 15px;
+	margin-left: 15%;
+	font-size: 14px;
+}
+.header_contact a {
+	padding: 10px;
+}
+.content_area {
+	width: 80%;
+	font-size: 13px;
+	position: relative;
+	margin: auto;
+	
+}
+.content_text {
+	float: left;
+	width: 75%;
+	line-height: 25px;
+	padding-top: 5px;
+	position: relative;
+}
+.content_text a { 
+	color: black;
+	-webkit-transition: all 0.2s ;
+       -moz-transition: all 0.2s ;
+        -ms-transition: all 0.2s ;
+         -o-transition: all 0.2s ;
+}
+.content_text a:hover {color: grey;}
+.content_text ul li {
+	display: block;
+	text-indent: -40px;
+}
+
+
+
+
+
+/*********************
+Services Styling 
+*********************/
+.case_studies_box {
+	margin: 24px;
+	margin-left: 0;
+	margin-top: 0;
+	width: 30%;
+	float: left;
+	-webkit-transition: all 0.2s ;
+       -moz-transition: all 0.2s ;
+        -ms-transition: all 0.2s ;
+         -o-transition: all 0.2s ;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.case_studies_box:hover {
+	background-color: #164a75;
+	color: #fff;
+}
+.case_studies_box h3 {
+	padding: 10px;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+.case_studies_box img {
+}
+.case_studies_text {
+	position: absolute;
+	width: 94%;
+	background-color: #164a75;
+	color: #fff;
+	padding: 10px;
+	padding-top: 0;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	display: none;
+}
+.case_studies_text {
+	background-color: #164a75; 
+}
+
+
+/*********************
+Case studies pages
+*********************/
+.case_text h1 {
+	padding-bottom: 30px;
+}
+.case_text img {
+	width: 250px;
+	float: left;
+	padding: 5px;
+	margin: 10px;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 0;
+	padding-top: 0;
+}
+.case_text iframe {
+	padding-top: 50px;
+}
+a.back_button {
+	position: absolute;
+	color: #164a75;
+	font-size: 17px;
+	margin-top: 10px;
+}
+a.back_button:hover {opacity: 0.8;}
+
+/********************
+Contact us styling
+********************/
+.contact_staff {
+	width: 60%;
+}
+.contact_popup {
+	width: 40%;
+	float: right;
+}
+.members_box img {
+	width: 150px;
+	float: left;
+	padding: 10px;
+}
+.location {	
+	letter-spacing: 1px;
+	width: 100%;
+}
+
+/*Form styling*/
+form {
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+input, textarea {
+	border-radius: 5px;
+	border: 1px solid #7a7a7a !important;
+	box-shadow: -3px 2px 2px rgba(0,0,0,0.09);
+	-moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.09);
+	-webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.09);
+	padding: 3px 0 3px 2px;
+	margin: 3px 0 3px 0;
+	color: #7a7a7a;
+	font-weight: 300;
+}
+textarea {
+	padding:3px;
+}
+.submit {
+	width: 70px;
+	float: right;
+	margin-right: 30px;
+	margin-top: 10px;
+	background-color: #164a75;
+	color: #fff;
+	-webkit-transition: all 0.2s ;
+       -moz-transition: all 0.2s ;
+        -ms-transition: all 0.2s ;
+         -o-transition: all 0.2s ;
+}
+.submit:hover {
+	opacity: 0.8;
+}
+
+/****************
+Footer styling
+*****************/
+footer {
+	
+	
+
+	
+
+	
+
+}
+footer a {
+	color: #fff;
+}
+.footer_left {
+	margin: 15px !important;
+}
+/*/*Housing badges*/
+.housing_badges {
+	float: left;
+	width: 100%;
+	border-radius: 5px;
+	background-color: #ffffff;
+	padding: 20px 5px;
+
+}
+.housing_badges img {
+	float: left;
+	/*width: 131px;*/
+	padding: 0 10px 0 10px;
+}
+.footer_contact_details {
+	clear: both;
+	padding-bottom: 20px;
+	padding-left: 15px !important;
+	margin: 15px;
+}
+.footer_contact_details img {
+	float: left;
+	padding-right: 10px;
+}
+.footer_contact_details p {
+	float: left;
+}
+.footer_numbers {
+	float: right; 
+	width: 30%;
+	margin-top: 30px;	
+}
+
+.footer_content_right {
+	width: 20%;
+	float: right;
+	margin-right: 10%;
+	padding-top: 20px;
+}
+/* footer divide line*/
+.footer_divide {
+	height: 1px;
+	background-color: #456e91;
+	width: 100%;
+	float: left;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.right_divide {
+	clear: both;
+	width: 100%;
+	float: right;
+}
+
+
+/*right side content styling*/
+.copyright {	
+	padding-top: 41px;
+	padding-right: 42px;
+}
+.terms {
+	padding-right: 50px;
+}
+
+
+
+
+
+
+
+

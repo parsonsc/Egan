@@ -1,0 +1,93 @@
+/* line 1, sass/footer.scss */
+footer {
+  clear: both;
+  background-color: #164a75;
+  color: #ffffff;
+  position: relative;
+  font-size: 13px;
+}
+/* line 7, sass/footer.scss */
+footer a {
+  color: #fff;
+}
+
+/* line 9, sass/footer.scss */
+.footer_left {
+  margin: 15px !important;
+  width: 50%;
+  float: left;
+}
+
+/* line 14, sass/footer.scss */
+.housing_badges {
+  float: left;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px 5px;
+  margin-bottom: 15px;
+}
+/* line 21, sass/footer.scss */
+.housing_badges img {
+  float: left;
+  padding: 0 10px;
+}
+
+/* line 26, sass/footer.scss */
+.footer_contact_details {
+  width: 70%;
+  padding-bottom: 20px;
+  margin: 15px 0 0 0;
+}
+/* line 30, sass/footer.scss */
+.footer_contact_details img {
+  float: left;
+  padding-right: 10px;
+}
+/* line 34, sass/footer.scss */
+.footer_contact_details p {
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 36, sass/footer.scss */
+.footer_numbers {
+  float: right;
+  width: 30%;
+}
+
+/* line 41, sass/footer.scss */
+.footer_divide {
+  height: 1px;
+  background-color: #456e91;
+  width: 100%;
+  float: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* line 49, sass/footer.scss */
+.right_divide {
+  clear: both;
+  width: 100%;
+  float: right;
+}
+
+/* line 55, sass/footer.scss */
+.footer_content_right {
+  width: 13%;
+  float: right;
+  margin: 30px 14% 0 0;
+}
+
+/* line 60, sass/footer.scss */
+.copyright {
+  padding-top: 41px;
+  padding-right: 42px;
+}
+
+/* line 64, sass/footer.scss */
+.terms {
+  padding-right: 50px;
+}

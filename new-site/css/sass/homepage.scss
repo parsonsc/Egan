@@ -1,0 +1,49 @@
+// Index.html main content styling
+
+.team_member {
+	float: left;
+	background-color: #eaeaea;
+	padding: 2%;
+	margin: 5px;
+	overflow: hidden;
+	width: 254px;
+	height: 370px;
+	line-height: 20px;
+	position: relative;
+	header {padding-bottom: 5px;
+		p {
+			margin: 0; padding: 0;
+		}
+	}
+	img {
+		width: 62px;
+		float: left;
+		padding-right: 5px;
+	}
+	h4 {
+		padding-top: 10px;
+		margin: 0;
+		font-size: 14px;
+	}	
+	.staff_role {
+		font-size: 9px;
+		border-bottom: 1px solid black;
+		padding-top: 3px;
+		position: relative;
+		padding: 4px 0 4px 0;
+		display: inline;
+		color: #404041;
+	}
+	p {font-size: 13px; }
+	.staff_contact_details {
+		position: absolute; 
+		bottom: 10px; 
+		color: #164a75;
+	}
+	.text.short {
+	    height: 120px;
+	    overflow: hidden;
+	}
+	a {color: #164a75;}
+	.degree {font-size: 10px; padding: 0; margin: 0;}
+}

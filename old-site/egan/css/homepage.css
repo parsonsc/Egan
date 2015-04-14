@@ -1,0 +1,68 @@
+/* line 3, sass/homepage.scss */
+.team_member {
+  float: left;
+  background-color: #eaeaea;
+  padding: 2%;
+  margin: 1%;
+  overflow: hidden;
+  width: 27%;
+  height: 425px;
+  line-height: 20px;
+  position: relative;
+}
+/* line 13, sass/homepage.scss */
+.team_member header {
+  padding-bottom: 5px;
+}
+/* line 14, sass/homepage.scss */
+.team_member header p {
+  margin: 0;
+  padding: 0;
+}
+/* line 18, sass/homepage.scss */
+.team_member img {
+  width: 62px;
+  float: left;
+  padding-right: 5px;
+}
+/* line 23, sass/homepage.scss */
+.team_member h4 {
+  padding-top: 10px;
+  margin: 0;
+  font-size: 14px;
+}
+/* line 30, sass/homepage.scss */
+.team_member .staff_role {
+  font-size: 9px;
+  border-bottom: 1px solid black;
+  padding-top: 3px;
+  position: relative;
+  padding: 4px 0 4px 0;
+  display: inline;
+  color: #404041;
+}
+/* line 39, sass/homepage.scss */
+.team_member p {
+  font-size: 13px;
+}
+/* line 40, sass/homepage.scss */
+.team_member .staff_contact_details {
+  position: absolute;
+  bottom: 10px;
+  color: #164a75;
+}
+/* line 45, sass/homepage.scss */
+.team_member .text.short {
+  height: 120px;
+  overflow: hidden;
+}
+/* line 49, sass/homepage.scss */
+.team_member a {
+  color: #164a75;
+}
+/* line 50, sass/homepage.scss */
+.team_member .degree {
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+}

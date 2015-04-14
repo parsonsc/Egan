@@ -1,0 +1,58 @@
+/* line 3, sass/latest_news.scss */
+.latest_news {
+  width: 20%;
+  padding: 10px;
+  margin-left: 15px !important;
+  float: right;
+  background-color: #eaeaea;
+  height: 100%;
+}
+/* line 10, sass/latest_news.scss */
+.latest_news h3 {
+  background-color: #164a75;
+  width: 86%;
+  color: #ffffff;
+  margin: 0;
+  padding: 10px 7% 10px 7%;
+}
+/* line 17, sass/latest_news.scss */
+.latest_news .latest_news_inner {
+  position: relative;
+  background-color: #a3a3a3;
+  padding: 15px;
+  color: #fff;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+/* line 26, sass/latest_news.scss */
+.latest_news .news_divide {
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+}
+
+/* line 33, sass/latest_news.scss */
+.home_news {
+  height: 1300px;
+}
+
+/* line 36, sass/latest_news.scss */
+.albe_news {
+  height: 800px;
+}
+
+/* line 39, sass/latest_news.scss */
+.services_news {
+  height: 745px;
+}
+
+/* line 42, sass/latest_news.scss */
+.contact_news {
+  height: 1005px;
+}
+
+/* line 45, sass/latest_news.scss */
+.case_news {
+  height: 800px;
+}

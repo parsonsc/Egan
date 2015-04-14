@@ -1,0 +1,10 @@
+{
+	"output_path": "/path/to/compiled/css",
+	"options": {
+		"cache":         false,
+		"debug":         true,
+		"line-comments": false,
+		"line-numbers":  true,
+		"style":         "compressed"
+	}
+}

@@ -1,0 +1,66 @@
+footer {
+	clear: both;	
+	background-color: #164a75;
+	color: #ffffff;
+	position: relative;
+	font-size: 13px;
+	a {color: #fff;}
+}
+.footer_left {
+	margin: 15px !important;
+	width: 50%;
+	float: left;
+}
+.housing_badges {
+	float: left;
+	width: 100%;
+	border-radius: 5px;
+	background-color: #ffffff;
+	padding: 20px 5px;
+	margin-bottom: 15px;
+	img {
+		float: left;
+		padding: 0 10px;
+	}
+}
+.footer_contact_details {
+	width: 70%;
+	padding-bottom: 20px;
+	margin: 15px 0 0 0 ;
+	img {
+		float: left;
+		padding-right: 10px;
+	}
+	p {float: left; padding: 0; margin: 0;}
+}
+.footer_numbers {
+	float: right; 
+	width: 30%;
+}
+// divide line
+.footer_divide {
+	height: 1px;
+	background-color: #456e91;
+	width: 100%;
+	float: left;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.right_divide {
+	clear: both;
+	width: 100%;
+	float: right;
+}
+// footer right
+.footer_content_right {
+	width: 13%;
+	float: right;
+	margin: 30px 14% 0 0;
+}
+.copyright {	
+	padding-top: 41px;
+	padding-right: 42px;
+}
+.terms {
+	padding-right: 50px;
+}
